@@ -12,11 +12,11 @@
         margin-inline: auto; 
     }
 }
-div:nth-child(3){
+    div:nth-child(3){
     justify-self: end;
 }
 
-#secondary{
+#secondary {
     padding-block: 14px;
     border: solid 1px var(--stroke-color);
     justify-content: space-between;
