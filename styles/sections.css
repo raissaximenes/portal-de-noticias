@@ -4,7 +4,7 @@ section header {
     font: var(--text-span);
 
     a {
-        justify-self: end; /* COLOCAR A IMAGEM E VER PQ N TA APLICANDO O END*/
+        justify-self: end; 
         align-items: center;
         gap: 8px;
 
@@ -13,7 +13,11 @@ section header {
             width: 16px;
             height: 16px;
         }
-    }
+
+        &:hover span {
+            background-image: url(/assets/icons/ArrowRight.svg);
+        }
+    } 
 }
 
  #featured {
@@ -60,10 +64,6 @@ section header {
 }
 
 #weekly {
-
-    &:hover span {
-        background-image: url(/assets/icons/ArrowRight.svg); /* AJUSTAR IMAGEM*/
-}
 
     &>div {
         grid-template-columns: repeat(4, 292px);

@@ -5,8 +5,8 @@
 }
 
 :root {
-    --brand-color-light: #5EEAD4;
-    --brand-color-dark: #14B8A6;
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
     --bg-color:#0F172A ;
     --stroke-color:#1E293B;
     --text-color-primary:#F1F5F9;
@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: var(--brand-color-light);
+    color: var(--brand-color-light)
 }
 
 h1, h2, h3 {
