@@ -51,7 +51,16 @@ img {
 
 main {
     margin-top: 40px;
-    gap:80px;
+    row-gap:80px;
+    column-gap: 32px;
+    align-items: stretch;
+
+    grid-template-columns: 3fr 1.5fr;
+
+    grid-template-areas: /*cria areas- nesse caso criam duas colunas*/
+    "featured featured " 
+    "weekly weekly"
+    "ai aside";
 }
 
 .content-tag {
@@ -65,3 +74,15 @@ main {
     color: var (--text-color-primary);
     box-shadow: 0px 4px 16px rgba (2, 6, 23, 0.251);
 }
+
+#more {
+    img {
+        width: 72px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h3{ 
+        margin-top: 32px;
+    }
+}  
