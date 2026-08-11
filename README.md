@@ -1,6 +1,6 @@
 <h1 align="center"> Portal de Notícias </h1>
 <div align="center">
-  <img src="assets/images/readme.png">
+  <img src="assets/images/imagereadme.png">
 </div>
 
 ## Sobre o projeto
